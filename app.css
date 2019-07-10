@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(241, 241, 241);
+    border: solid blue 3px;
+    margin-left: 225px;
+}
+
+.mainContainer{
+    background-color: rgb(255, 255, 255);
+    border: solid red 3px;
+    width: 750px;
+}
+
+.chatContainer{
+    border-color: black;
+    border-width: 3px;
+    border: solid;
+    width: 500px;
+    justify-content: center;
+    display: inline-block;
+}
+
+header{
+    background-color: rgb(241, 112, 39);
+    display: inline-flex; 
+    justify-content: center;
+   /* padding: 50px; */
+
+}
+
+.myChat{
+    background-color: rgb(60, 55, 68);
+    color: rgb(112, 108, 119);
+    border-radius: 15%;
+    width: fit-content;
+    height: inherit;
+    text-align: right;
+}
+
+.theirChat{
+    background-color: rgb(245, 244, 247);
+
+}
+
+.backArrow{
+    padding: 5px;
+    margin: 5px;
+}
+
+.name{
+    padding: 5px;
+    margin: 5px;
+}
+
+.description{
+    padding: 5px;
+    margin: 5px;
+
+}
