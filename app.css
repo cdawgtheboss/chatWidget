@@ -7,7 +7,7 @@ body{
 .mainContainer{
     background-color: rgb(255, 255, 255);
     border: solid red 3px;
-    width: 750px;
+    width: 375px;
 }
 
 .chatContainer{
@@ -16,13 +16,13 @@ body{
     border: solid;
     width: 500px;
     justify-content: center;
-    display: inline-block;
+    display: ;
 }
 
 header{
     background-color: rgb(241, 112, 39);
     display: inline-flex; 
-    justify-content: center;
+   /* justify-content: center; */
    /* padding: 50px; */
 
 }
