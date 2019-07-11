@@ -33,7 +33,7 @@ header{
 
 .theirChat{
     background-color: rgb(245, 244, 247);
-
+    color: #3c3745;
 }
 
 .backArrow{
@@ -43,19 +43,33 @@ header{
 }
 
 .name{
+    /*
     padding: 5px;
     margin: 5px;
-    font-size: 20px;
+  */  font-size: 20px;
     
 }
 
 .description{
-    padding: 5px;
+/*    padding: 5px;
     margin: 5px;
-    font-size: 12px;
+  */  font-size: 12px;
     
 }
 
 .chatArea{
     font-size: 14px;
+}
+
+footer{
+    font-size: 12px;
+    display: inline-flex;
+    color: #c2c6cd;
+}
+
+.textEntry{
+}
+
+.buttons{
+    text-align: right;
 }
