@@ -1,12 +1,9 @@
 body{
     background-color: rgb(241, 241, 241);
-  /*  border: solid blue 3px; */
     margin: 0 auto;
 }
 
 .mainContainer{
-   /* background-color: rgb(255, 255, 255); */
-  /*  border: solid red 3px;  */
 }
 
 .chatContainer{
@@ -30,6 +27,9 @@ header{
 .myChat{
     background-color: rgb(60, 55, 68);
     color: rgb(112, 108, 119);
+    justify-content: right;
+    display: inline-block;
+    border-radius: 15px;
 }
 
 .theirChat{
@@ -39,23 +39,21 @@ header{
 
 .backArrow{
     padding: 5px;
-    margin: 5px;
-    
+    margin: 5px;   
 }
 
+.avatar{
+    border-radius: 50%;
+    display: block;
+    width: 55px;
+    height: 55px;
+}
 .name{
-    /*
-    padding: 5px;
-    margin: 5px;
-  */  font-size: 20px;
-    
+    font-size: 20px;
 }
 
 .description{
-/*    padding: 5px;
-    margin: 5px;
-  */  font-size: 12px;
-    
+    font-size: 12px;
 }
 
 .chatArea{
