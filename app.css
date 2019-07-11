@@ -1,12 +1,12 @@
 body{
     background-color: rgb(241, 241, 241);
-    border: solid blue 3px;
-    margin 0 auto;
+  /*  border: solid blue 3px; */
+    margin: 0 auto;
 }
 
 .mainContainer{
-    background-color: rgb(255, 255, 255);
-    border: solid red 3px;
+   /* background-color: rgb(255, 255, 255); */
+  /*  border: solid red 3px;  */
 }
 
 .chatContainer{
@@ -15,10 +15,11 @@ body{
     margin: 0 auto;
     box-shadow: 15px 15px 15px rgb(241, 241, 241); 
     border-radius: 15px;
+    border: solid rgb(241, 112, 39);
 }
 
 header{
-    background-color: rgb(241, 112, 39);
+ /*   background-color: rgb(241, 112, 39); */
     display: flex;
     background: linear-gradient(to right, #d94818, #f47c21);
     margin: 0 auto;
@@ -63,8 +64,10 @@ header{
 
 footer{
     font-size: 12px;
-    display: inline-flex;
+    display: inline-flexbox;
     color: #c2c6cd;
+    border-top-color: #c2c6cd;
+    border-top: solid;
 }
 
 .textEntry{
