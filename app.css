@@ -1,39 +1,34 @@
 body{
     background-color: rgb(241, 241, 241);
     border: solid blue 3px;
-    margin-left: 225px;
+    margin 0 auto;
 }
 
 .mainContainer{
     background-color: rgb(255, 255, 255);
     border: solid red 3px;
-    width: 375px;
 }
 
 .chatContainer{
-    border-color: black;
-    border-width: 3px;
-    border: solid;
-    width: 500px;
+    width: 490px;
     justify-content: center;
-    display: ;
+    margin: 0 auto;
+    box-shadow: 15px 15px 15px rgb(241, 241, 241); 
+    border-radius: 15px;
 }
 
 header{
     background-color: rgb(241, 112, 39);
-    display: inline-flex; 
-   /* justify-content: center; */
-   /* padding: 50px; */
-
+    display: flex;
+    background: linear-gradient(to right, #d94818, #f47c21);
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
 }
 
 .myChat{
     background-color: rgb(60, 55, 68);
     color: rgb(112, 108, 119);
-    border-radius: 15%;
-    width: fit-content;
-    height: inherit;
-    text-align: right;
 }
 
 .theirChat{
@@ -44,15 +39,23 @@ header{
 .backArrow{
     padding: 5px;
     margin: 5px;
+    
 }
 
 .name{
     padding: 5px;
     margin: 5px;
+    font-size: 20px;
+    
 }
 
 .description{
     padding: 5px;
     margin: 5px;
+    font-size: 12px;
+    
+}
 
+.chatArea{
+    font-size: 14px;
 }
