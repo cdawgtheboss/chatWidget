@@ -1,22 +1,24 @@
 body{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(239, 239, 239);
     margin: 0 auto;
 }
 
 .mainContainer{
+
 }
 
 .chatContainer{
-    width: 490px;
+    height: 500px;
+    width: 375px;
     justify-content: center;
     margin: 0 auto;
     box-shadow: 15px 15px 15px rgb(241, 241, 241); 
     border-radius: 15px;
-    border: solid rgb(241, 112, 39);
+  /*  border: solid rgb(241, 112, 39); */
+    background-color: rgb(255, 255, 255);
 }
 
 header{
- /*   background-color: rgb(241, 112, 39); */
     display: flex;
     background: linear-gradient(to right, #d94818, #f47c21);
     margin: 0 auto;
@@ -24,12 +26,18 @@ header{
     border-top-right-radius: 15px; 
 }
 
+header .name p{
+    font-size: 16px; 
+}
+.chatArea{
+
+}
 .myChat{
     background-color: rgb(60, 55, 68);
     color: rgb(112, 108, 119);
-    justify-content: right;
+    justify-content: flex-end;
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 15px;    
 }
 
 .theirChat{
@@ -37,19 +45,27 @@ header{
     color: #3c3745;
 }
 
+.myChat .theirChat{
+    display: flex;
+}
+
 .backArrow{
-    padding: 5px;
+    padding: 20px;
     margin: 5px;   
 }
 
 .avatar{
-    border-radius: 50%;
-    display: block;
+    padding-top: 20px;
     width: 55px;
     height: 55px;
 }
+
+.avatar img{
+    border-radius: 50%;
+}
 .name{
     font-size: 20px;
+    padding-left: 20px;
 }
 
 .description{
@@ -62,7 +78,7 @@ header{
 
 footer{
     font-size: 12px;
-    display: inline-flexbox;
+    display: inline;
     color: #c2c6cd;
     border-top-color: #c2c6cd;
     border-top: solid;
@@ -73,4 +89,5 @@ footer{
 
 .buttons{
     text-align: right;
+    
 }
