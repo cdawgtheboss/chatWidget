@@ -8,13 +8,12 @@ body{
 }
 
 .chatContainer{
-    height: 500px;
+    height: inherit;
     width: 375px;
     justify-content: center;
     margin: 0 auto;
     box-shadow: 15px 15px 15px rgb(241, 241, 241); 
     border-radius: 15px;
-  /*  border: solid rgb(241, 112, 39); */
     background-color: rgb(255, 255, 255);
 }
 
@@ -30,23 +29,26 @@ header .name p{
     font-size: 16px; 
 }
 .chatArea{
-
 }
+
 .myChat{
     background-color: rgb(60, 55, 68);
     color: rgb(112, 108, 119);
     justify-content: flex-end;
-    display: inline-block;
     border-radius: 15px;    
+    margin-left: 225px;
 }
 
 .theirChat{
     background-color: rgb(245, 244, 247);
     color: #3c3745;
+    margin-left: 25px;
+    margin-right: 225px;
 }
 
-.myChat .theirChat{
+.myChat, .theirChat{
     display: flex;
+    padding: 5px;
 }
 
 .backArrow{
@@ -87,6 +89,9 @@ footer{
 .textEntry{
 }
 
+.input{
+    padding-left: 15px;
+}
 .buttons{
     text-align: right;
     
