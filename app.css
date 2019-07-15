@@ -23,6 +23,7 @@ header{
     margin: 0 auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px; 
+    color: rgb(255, 238, 203);
 }
 
 header .name p{
@@ -30,21 +31,21 @@ header .name p{
 }
 .chatArea{
 }
-
 .myChat{
+    justify-content: flex-end;
+}
+.myChat span{
     background-color: rgb(60, 55, 68);
     color: rgb(112, 108, 119);
-    justify-content: flex-end;
     border-radius: 15px;    
-    margin-left: 225px;
+    padding: 10px;
 }
 
-.theirChat{
+.theirChat span{
     background-color: rgb(245, 244, 247);
     color: #3c3745;
-    margin-left: 25px;
-    margin-right: 225px;
     border-radius: 15px;
+    padding: 10px;
 }
 
 .myChat, .theirChat{
@@ -81,19 +82,25 @@ header .name p{
 
 footer{
     font-size: 12px;
-    display: inline;
     color: #c2c6cd;
-    border-top-color: #c2c6cd;
-    border-top: solid;
+    border-top: 2px solid #c2c6cd;
+    display: flex;
+    justify-content: space-between;
 }
 
-.textEntry{
-}
 
 .input{
     padding-left: 15px;
 }
 .buttons{
-    text-align: right;
-    
+    display: flex;
+    align-items: center;
+}
+
+.buttons i{
+    padding-right: 5px;
+}
+
+.buttons i:active{
+    color: blue;
 }
