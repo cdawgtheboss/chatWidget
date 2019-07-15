@@ -8,8 +8,10 @@ h3{
     margin-bottom: 0;
 }
 
-.mainContainer{
-
+.backArrow i{
+    border: black solid 2px;
+    font-size: 32px;
+    color: black;
 }
 
 .chatContainer{
