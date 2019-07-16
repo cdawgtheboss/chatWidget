@@ -13,7 +13,7 @@ h3{
     font-size: 28px;
     color: rgb(255, 227, 208);
     margin-bottom: 0px;
-    padding-top: 15px;
+    padding-top: ;
 }
 
 .chatContainer{
@@ -33,12 +33,14 @@ header{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px; 
     color: rgb(255, 238, 203);
-    padding-bottom: 15px;
+    height: 85px;
 }
 
 header .name p{
-    font-size: 16px; 
+    font-size: 12px; 
     margin: 0;
+    padding-bottom: 15px;
+    font-weight: 100;
 }
 
 
@@ -67,20 +69,23 @@ header .name p{
 .backArrow{
     padding: 20px;
     margin: 5px;   
+    margin-bottom: 0px;
 }
 
 .avatar{
-    padding-top: 20px;
-    width: 55px;
-    height: 55px;
+    padding-top: 23px;
 }
 
 .avatar img{
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
+
 .name{
     font-size: 20px;
     padding-left: 20px;
+    margin-bottom: 0px;
 }
 
 .description{
@@ -95,7 +100,7 @@ header .name p{
 footer{
     font-size: 12px;
     color: #c2c6cd;
-    border-top: 2px solid #c2c6cd;
+    border-top: 1px #c2c6cd;
     display: flex;
     justify-content: space-between;
 }
