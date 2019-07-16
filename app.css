@@ -13,7 +13,6 @@ h3{
     font-size: 28px;
     color: rgb(255, 227, 208);
     margin-bottom: 0px;
-    padding-top: ;
 }
 
 .chatContainer{
@@ -43,14 +42,18 @@ header .name p{
     font-weight: 100;
 }
 
+.chatArea{
+    height: 400px;
+}
 
 .myChat{
     justify-content: flex-end;
 }
 .myChat span{
     background-color: rgb(60, 55, 68);
-    color: rgb(112, 108, 119);
-    border-radius: 15px;    
+    color: rgb(255, 252, 255);
+    border-radius: 15px;
+    border-top-right-radius: 3px;    
     padding: 10px;
 }
 
@@ -58,6 +61,7 @@ header .name p{
     background-color: rgb(245, 244, 247);
     color: #3c3745;
     border-radius: 15px;
+    border-top-left-radius: 3px;
     padding: 10px;
 }
 
@@ -98,9 +102,8 @@ header .name p{
 }
 
 footer{
-    font-size: 12px;
+    border-top: 5px solid #fffeff;
     color: #c2c6cd;
-    border-top: 1px #c2c6cd;
     display: flex;
     justify-content: space-between;
 }
@@ -110,6 +113,7 @@ footer{
     padding-left: 15px;
     margin-bottom: 30px;
     margin-top: 30px;
+    font-size: 14px;
 }
 
 .buttons{
