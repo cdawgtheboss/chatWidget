@@ -102,7 +102,7 @@ header .name p{
 }
 
 footer{
-    border-top: 5px solid #fffeff;
+    border-top: 2px solid #aaa3aa;
     color: #c2c6cd;
     display: flex;
     justify-content: space-between;
